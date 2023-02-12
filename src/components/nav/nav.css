@@ -1,0 +1,62 @@
+.nav{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 12vh;
+    color: rgb(58, 57, 57);
+    box-shadow: 0 0 18px 2px black;
+    background-color: white;
+}
+a{
+    text-decoration: none;
+}
+.nav-brand img{
+    width: 8rem;
+    object-fit: cover;
+    object-position: center;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+}
+.nav-items img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 1rem;
+    object-position: center;
+}
+.nav-items p{
+    font-size: 1rem;
+}
+.signin-btn,.signout-btn{
+    padding: .2rem 1rem;
+    font-size: 1rem;
+    border-radius: .5rem;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(230, 96, 18);
+    color: white;
+    margin: 0 2rem;
+}
+.nav-cart{
+    display: flex;
+}
+.nav-cart .nav-cart-icon{
+    font-size: 1.8rem;
+    color: rgb(58, 57, 57);
+}
+.nav-cart-count{
+    color: rgb(58, 57, 57);
+}
+
+.my-orders{
+    margin: 0 1rem;
+    margin-right: 2rem;
+    font-size: 1rem;
+    color: rgb(58, 57, 57);
+}

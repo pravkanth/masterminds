@@ -1,0 +1,100 @@
+.checkout-page{
+    padding: 2rem;
+}
+.cart-product-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.order-product-div{
+    display: flex;
+    justify-content: center;
+}
+.checkout-page .cart-empty-left,.checkout-page .cart-product-left{    
+    background-color: #FFFFFF;
+    width: 70%;
+    height: fit-content;
+    padding: 2rem 1rem;
+    border-radius: .2rem;
+}
+.order-div{
+    width: 100%;
+}
+.checkout-page .cart-empty-right,.checkout-page .cart-product-right{
+    width: 25%;
+    background-color: #FFFFFF;
+    margin:0 2rem;
+    padding: 1rem 1.5rem;
+}
+.checkout-page .cart-product-right{
+    height: fit-content;
+    padding: 2rem 1.5rem;
+}
+.cart-item{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+.cart-item img{
+    height: 8rem;
+    width: 8rem;
+    object-fit: contain;
+    object-position: center;
+}
+.cart-item .cart-item-details .product-name{
+    font-size:15px;
+    font-weight: bold;
+    line-height: 1rem;
+    color: #1F7E9B;
+}
+.cart-item .cart-item-details .product-rating{
+    color:#FF9900 ;
+}
+.cart-item .cart-item-details .product-price{
+    font-size: 1rem;
+    color: rgb(189, 6, 6);
+}
+.quantity-div{
+    display: flex;
+    gap: 1rem;
+    margin: .5rem 0;
+    align-items: center;
+}
+.quantity-div button{
+    padding: 0 .5rem;
+    cursor: pointer;
+}
+.cart-item .cart-item-details .product-img-btn button{
+    font-size: 0.9rem;
+    background-color: #fcd40b;
+    color: black;
+    padding: .2rem 0.5rem;
+    border: none;
+    border-radius: 1rem;
+  }
+.cart-product{
+    margin-top: 1rem;
+    border-bottom:1px solid #DDDDDD;
+}
+
+  .cart-btn{
+    margin-right: 1rem;
+    padding:0.2rem 1rem;
+    border: none;
+  }
+
+  .proceed-to-buy{
+    background-color: rgb(230, 96, 18);
+    color: #FFFFFF;
+    width: 100%;
+    border: none;
+    border-radius: .4rem;
+    padding: .4rem;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: .3s ease all;
+  }
+  .proceed-to-buy:hover{
+    background-color: rgb(201, 58, 1);
+  }
